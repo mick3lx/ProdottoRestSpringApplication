@@ -70,7 +70,7 @@ public class ProdottoRestController {
     }
 
     @PostMapping("/caricafile")
-    public String caricaFile(@RequestParam("seleziona file") MultipartFile file){
+    public String caricaFile(@RequestParam("File") MultipartFile file){
         String infoFile = file.getOriginalFilename() + " - " + file.getContentType();
         String conFormat = String.format("%s-%s", file.getOriginalFilename(), file.getContentType());
         logger.info(infoFile);
