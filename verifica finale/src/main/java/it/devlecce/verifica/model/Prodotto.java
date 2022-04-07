@@ -1,9 +1,11 @@
 package it.devlecce.verifica.model;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
 public class Prodotto {
     @Id
     @GeneratedValue
@@ -39,7 +41,9 @@ public class Prodotto {
     }
 
 
-// mettiamo getter e setter per ogni variabile
+
+
+    // mettiamo getter e setter per ogni variabile
     public Long getId() {
         return id;
     }
