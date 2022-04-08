@@ -11,7 +11,7 @@ Applicazione basata su Spring con le funzioni:
 ### Link Utili 
 --->[spring start io](https://start.spring.io/)<---
 
-### Link per contattarmi!!!/Link
+### Link per contattarmi!!!
 -->[LINKEDIN](https://www.linkedin.com/in/michele-silvestri-843b4022a/)<--
 
 
